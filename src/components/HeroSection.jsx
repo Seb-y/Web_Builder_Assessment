@@ -27,7 +27,7 @@ const HeroSection = () => {
           {/* Right Image */}
           <div className="relative z-10 rtl">
             <img
-              src="src/assets/cover.png"
+              src="/images/cover.png"
               alt="Modern luxury home"
               className="w-full h-auto object-contain drop-shadow-2xl rounded-r-full hover:rounded-lg transition-all"
             />

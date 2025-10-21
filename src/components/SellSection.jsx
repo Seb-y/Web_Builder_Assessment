@@ -8,7 +8,7 @@ const services = [
     description:
       "We helped nearly 90 clients in 2021, and closed 28.5 million in sales! Our team works hard everyday to grow and learn, so that we may continue to excel in our market. Our clients deserve our best, & we want to make sure our best is better every year.",
     button: "View Portfolio",
-    image: "src/assets/service1.png",
+    image: "/images/service1.png",
   },
   {
     title: "Don't Just List It",
@@ -16,7 +16,7 @@ const services = [
     description:
       "Get it SOLD! We exhaust every avenue to ensure our listings are at the fingertips of every possible buyer, getting you top dollar for your home.",
     button: "Learn More",
-    image: "src/assets/service2.png",
+    image: "/images/service2.png",
   },
   {
     title: "Guide to Buyers",
@@ -24,7 +24,7 @@ const services = [
     description:
       "Nobody knows the market like we do. Enjoy having a pro at your service. Market analysis, upgrades lists, contractors on speed dial, & more!",
     button: "Start Your Journey",
-    image: "src/assets/service3.png",
+    image: "/images/service3.png",
   },
   {
     title: "Real Estate Done Right",
@@ -32,7 +32,7 @@ const services = [
     description:
       "Nervous about your property adventure? Don’t be. Whether you're getting ready to buy or sell your residence, looking at investment properties, or just curious about the markets, our team ensures you get the best experience possible!",
     button: "Learn More",
-    image: "src/assets/service4.png",
+    image: "/images/service4.png",
   },
   {
     title: "Commercial & Residential",
@@ -40,7 +40,7 @@ const services = [
     description:
       "Large or small, condo or mansion, we can find it and get at the price that's right. Fixer-uppers? Luxury? We can help with all of it! We live, work, and play in this community. Happy to help you find where to put your hard-earned dollars.",
     button: "Learn More",
-    image: "src/assets/service5.png",
+    image: "/images/service5.png",
   },
   {
     title: "Rely on Expertise",
@@ -48,7 +48,7 @@ const services = [
     description:
       "If you have questions about affordability, credit, and loan options, trust us to connect you with the right people to get the answers you need in a timely fashion. We make sure you feel confident and educated every step of the way.",
     button: "Learn More",
-    image: "src/assets/service6.png",
+    image: "/images/service6.png",
   },
   {
     title: "Stay Informed",
@@ -56,7 +56,7 @@ const services = [
     description:
       "We provide regular market updates to keep you informed about the latest trends and opportunities in real estate. Knowledge is power, and we want you to feel empowered in your decisions.",
     button: "See More",
-    image: "src/assets/service7.png",
+    image: "/images/service7.png",
   },
 ];
 
@@ -145,7 +145,7 @@ const ServicesSection = () => {
           <div className="absolute -top-28 left-1/2 transform -translate-x-1/2 w-72 h-72 md:w-80 md:h-80 rounded-full bg-gradient-to-b from-[#4BC0C8] to-[#00bf8f] opacity-30 blur-3xl z-0"></div>
           <div className="absolute -top-32 left-1/2 transform -translate-x-1/2 z-10">
             <img
-              src="src/assets/agent.png"
+              src="/images/agent.png"
               alt="Marci Metzger - Professional Realtor"
               className="w-64 h-64 sm:w-72 sm:h-72 md:w-80 md:h-80 rounded-full object-cover shadow-2xl border-4 border-white dark:border-gray-700"
             />

@@ -2,26 +2,26 @@ const TrustedBy = () => {
   const affiliations = [
     {
       name: "The Ridge Realty Group",
-      logoLight: "src/assets/company11.png",
-      logoDark: "src/assets/company11_dark.png",
+      logoLight: "/images/company11.png",
+      logoDark: "/images/company11_dark.png",
       alt: "The Ridge Realty Group",
     },
     {
       name: "Equal Housing Opportunity",
-      logoLight: "src/assets/company22.png",
-      logoDark: "src/assets/company22_dark.png",
+      logoLight: "/images/company22.png",
+      logoDark: "/images/company22_dark.png",
       alt: "Equal Housing Opportunity",
     },
     {
       name: "Realtor",
-      logoLight: "src/assets/company3.png",
-      logoDark: "src/assets/company3_dark.png",
+      logoLight: "/images/company3.png",
+      logoDark: "/images/company3_dark.png",
       alt: "Realtor Association",
     },
     {
       name: "Pahrump Valley Chamber of Commerce",
-      logoLight: "src/assets/company4.png",
-      logoDark: "src/assets/company4_dark.png",
+      logoLight: "/images/company4.png",
+      logoDark: "/images/company4_dark.png",
       alt: "Pahrump Valley Chamber of Commerce",
     },
   ];

@@ -51,7 +51,7 @@ const Footer = () => {
             {/* Right Image */}
             <div className="flex justify-center lg:justify-end">
               <img
-                src="src/assets/pixasquare-4ojhpgKpS68-unsplash.jpg"
+                src="/images/pixasquare-4ojhpgKpS68-unsplash.jpg"
                 alt="Modern home illustration"
                 className="w-full max-w-md h-auto object-contain drop-shadow-2xl"
               />

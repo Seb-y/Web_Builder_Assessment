@@ -4,43 +4,43 @@ import { ChevronLeft, ChevronRight, X } from "lucide-react";
 const PhotoGallery = () => {
   const images = [
     {
-      url: "src/assets/pic1.png",
+      url: "/images/pic1.png",
       title: "Community Wellness Center",
       category: "Featured Properties",
       aspectRatio: "tall", // portrait
     },
     {
-      url: "src/assets/pic2.png",
+      url: "/images/pic2.png",
       title: "Cozy Living Room",
       category: "Interior Spaces",
       aspectRatio: "wide", // landscape
     },
     {
-      url: "src/assets/pic3.png",
+      url: "/images/pic3.png",
       title: "3BR Family Home with Garage",
       category: "Featured Properties",
       aspectRatio: "square", // square
     },
     {
-      url: "src/assets/pic4.png",
+      url: "/images/pic4.png",
       title: "Modern 2BR Apartment",
       category: "Featured Properties",
       aspectRatio: "square", // landscape
     },
     {
-      url: "src/assets/pic5.png",
+      url: "/images/pic5.png",
       title: "Member's Tennis Court",
       category: "Outdoor Spaces",
       aspectRatio: "tall", // portrait
     },
     {
-      url: "src/assets/pic6.png",
+      url: "/images/pic6.png",
       title: "Luxury Villa",
       category: "Featured Properties",
       aspectRatio: "square", // square
     },
     {
-      url: "src/assets/pic7.png",
+      url: "/images/pic7.png",
       title: "3BR Family Home with Pool",
       category: "Featured Properties",
       aspectRatio: "wide", // landscape

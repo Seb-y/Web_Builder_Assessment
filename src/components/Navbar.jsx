@@ -32,7 +32,7 @@ const Navbar = () => {
         {/* Center: Logo */}
         <a href="#" className="flex justify-center">
           <img
-            src={darkMode ? "src/assets/logo_dark.png" : "src/assets/logo.png"}
+            src={darkMode ? "/images/logo_dark.png" : "/images/logo.png"}
             alt="Logo"
             className="h-10 w-auto object-contain"
           />
@@ -53,7 +53,7 @@ const Navbar = () => {
         {/* Left: Logo */}
         <a href="#">
           <img
-            src={darkMode ? "src/assets/logo_dark.png" : "src/assets/logo.png"}
+            src={darkMode ? "/images/logo_dark.png" : "/images/logo.png"}
             alt="Logo"
             className="h-12 w-auto object-contain"
           />
