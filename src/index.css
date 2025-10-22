@@ -5,3 +5,13 @@
 .break-inside-avoid {
   break-inside: avoid;
 }
+
+.select-wrapper select::-ms-expand {
+  display: none;
+}
+
+.select-wrapper select {
+  background-position: right 2rem center;
+  background-repeat: no-repeat;
+  background-size: 1rem;
+}

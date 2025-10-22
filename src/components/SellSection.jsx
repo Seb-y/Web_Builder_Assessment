@@ -88,7 +88,7 @@ const ServiceCard = ({ service, width, style }) => {
             top: pos.y - 160,
             left: pos.x - 160,
             background:
-              "radial-gradient(circle, rgba(59,130,246,0.5) 0%, rgba(147,51,234,0.5) 50%, rgba(236,72,153,0.5) 100%)",
+              "radial-gradient(circle, rgba(75,192,200,0.5) 0%, rgba(0,191,143,0.5) 50%, rgba(0,191,143,0.5) 100%)",
           }}
         />
       )}
@@ -177,13 +177,13 @@ const ServicesSection = () => {
 
         {/* Section Title */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold text-emerald-700 dark:text-white mb-2">
+          <h1 className="text-4xl md:text-5xl font-bold text-emerald-800 dark:text-white mb-2">
             With Our Services
           </h1>
-          <h2 className="text-4xl md:text-5xl font-bold text-emerald-700 dark:text-white mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-emerald-800 dark:text-white mb-4">
             GET IT SOLD
           </h2>
-          <div className="w-24 h-1 bg-emerald-600 dark:bg-white mx-auto mt-6"></div>
+          <div className="w-24 h-1 bg-emerald-800 dark:bg-white mx-auto mt-6"></div>
         </div>
 
         {/* Services Carousel */}

@@ -15,7 +15,7 @@ const Navbar = () => {
 
   return (
     // className="relative" removed
-    <nav className="flex items-center justify-between px-6 sm:px-12 lg:px-24 py-4 sticky top-0 z-20 backdrop-blur-xl bg-white/70 dark:bg-gray-900/70 border-b border-gray-200 dark:border-gray-700">
+    <nav className="flex items-center justify-between px-6 sm:px-12 lg:px-24 py-4 sticky top-0 z-20 backdrop-blur-sm bg-white/95 dark:bg-gray-900/95 border-b border-gray-200 dark:border-gray-700">
       {/* ===== MOBILE VIEW ===== */}
       <div className="flex w-full items-center justify-between md:hidden">
         {/* Left: Menu Button */}

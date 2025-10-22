@@ -46,13 +46,13 @@ const TrustedBy = () => {
                 <img
                   src={item.logoLight}
                   alt={item.alt}
-                  className="h-12 md:h-16 w-auto object-contain dark:hidden"
+                  className="h-16 sm:h-20 md:h-24 lg:h-28 w-auto object-contain dark:hidden"
                 />
                 {/* Dark mode logo */}
                 <img
                   src={item.logoDark}
                   alt={item.alt}
-                  className="h-12 md:h-16 w-auto object-contain hidden dark:block"
+                  className="h-16 sm:h-20 md:h-24 lg:h-28 w-auto object-contain hidden dark:block"
                 />
               </div>
             ))}

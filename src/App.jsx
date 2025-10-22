@@ -12,9 +12,9 @@ function App() {
     <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-800 dark:text-white transition-colors">
       <Navbar />
       <HeroSection />
+      <TrustedBy />
       <SellSection />
       {/* <ServiceSection /> */}
-      <TrustedBy />
       <PhotoGallery />
       <ContactUs />
       <Footer />
