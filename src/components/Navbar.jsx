@@ -1,20 +1,9 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
-const Navbar = () => {
-  const [darkMode, setDarkMode] = useState(false);
+const Navbar = ({ darkMode, setDarkMode }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  // Toggle dark mode on <html>
-  useEffect(() => {
-    if (darkMode) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-    }
-  }, [darkMode]);
-
   return (
-    // className="relative" removed
     <nav className="flex items-center justify-between px-6 sm:px-12 lg:px-24 py-4 sticky top-0 z-20 backdrop-blur-sm bg-white/95 dark:bg-gray-900/95 border-b border-gray-200 dark:border-gray-700">
       {/* ===== MOBILE VIEW ===== */}
       <div className="flex w-full items-center justify-between md:hidden">
